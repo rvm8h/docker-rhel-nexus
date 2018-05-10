@@ -36,7 +36,7 @@
             "source": {
                "type": "Git",
                "git": {
-                  "uri": "https://github.com/sonatype/docker-rhel-nexus.git",
+                  "uri": "https://github.com/rvm8h/docker-rhel-nexus.git",
                   "ref": "master"
                },
                "contextDir": "current/centos"

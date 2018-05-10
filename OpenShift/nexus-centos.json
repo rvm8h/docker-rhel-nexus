@@ -2,14 +2,14 @@
    "kind": "List",
    "apiVersion": "v1",
    "metadata": {
-      "name": "nexus"
+      "name": "nexus_centos"
    },
    "items": [
       {
          "kind": "BuildConfig",
          "apiVersion": "v1",
          "metadata": {
-            "name": "nexus"
+            "name": "nexus_centos"
          },
          "spec": {
             "triggers": [
@@ -60,7 +60,7 @@
          "kind": "ImageStream",
          "apiVersion": "v1",
          "metadata": {
-            "name": "nexus"
+            "name": "nexus_centos"
          },
          "spec": {
             "dockerImageRepository": "",
@@ -75,14 +75,14 @@
          "kind": "Template",
          "apiVersion": "v1",
          "metadata": {
-            "name": "nexus",
+            "name": "nexus_centos",
             "annotations": {
                "description": "Nexus Repository Manager 3",
                "tags": "repository-manager,nexus3,nexus,sonatype"
             }
          },
          "labels": {
-            "application": "nexus",
+            "application": "nexus_centos",
             "createdBy": "template-nexus"
          },
          "parameters": [
